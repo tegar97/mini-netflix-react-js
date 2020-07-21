@@ -1,0 +1,24 @@
+.textBox{
+    margin-top: 40px
+
+}
+.heading{
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    text-align: center;
+    letter-spacing: 10px;
+    animation-name: MoveRight;
+    animation-duration: 2s;
+    transition: 2s;
+}
+@keyframes MoveRight{
+    0%{
+       transform: translateX(-30%);
+       opacity: 0;
+    }
+
+    100%{
+        margin-left: translateX(0);
+        opacity: 1;
+    }
+}

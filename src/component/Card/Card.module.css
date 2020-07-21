@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    padding: 10px;
+}
+.card{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0;
+    
+   
+}
+.cardPoster{
+    margin-bottom: 3rem;
+    height: 23rem;
+    object-fit: cover;
+}
